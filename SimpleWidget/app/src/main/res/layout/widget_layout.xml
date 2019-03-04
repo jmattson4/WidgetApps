@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="#099"-->
+        <!--android:gravity="center_horizontal|center_vertical"-->
+        <!--android:text="Yipee"-->
+        <!--android:textColor="#000"/>-->
+
+    <AnalogClock
+        android:id="@+id/analog_clock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dial="@drawable/clock5"
+        android:hand_hour="@drawable/hour2"
+        android:hand_minute="@drawable/minute02"/>
+</LinearLayout>
